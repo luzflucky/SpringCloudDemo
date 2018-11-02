@@ -1,9 +1,0 @@
-spring:
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config-server
-      label: master
-      profile: config-client-dev.properties
-      uri: http://localhost:8771
